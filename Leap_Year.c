@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program checks if a given year is a leap year or not.
+*/
+
 //Libraries Included:
 #include <stdio.h>
 

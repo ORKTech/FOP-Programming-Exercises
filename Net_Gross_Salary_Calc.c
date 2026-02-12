@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program calculates the gross and net salary of an employee based on the basic pay, HRA, TA, and tax deductions.
+*/
+
 //Library Included:
 #include <stdio.h>
 

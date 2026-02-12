@@ -1,44 +1,47 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program calculates the total marks, percentage, and grade of a student based on the marks obtained in five subjects. It also checks if the student has passed or failed based on the minimum passing marks.
+*/
+
 //Library Included:
 #include <stdio.h>
 
 //Main:
 int main()
 {
-    int a, b, i, gcd, temp;
-    int smallestDivisor = 0;
+    int m1, m2, m3, m4, m5;
+    int total;
+    float percentage;
 
-    printf("Enter first number: ");
-    scanf("%d", &a);
+    // Input marks
+    printf("Enter marks of five subjects:\n");
+    scanf("%d %d %d %d %d", &m1, &m2, &m3, &m4, &m5);
 
-    printf("Enter second number: ");
-    scanf("%d", &b);
-
-    // Finding smallest common divisor (other than 1)
-    for (i = 2; i <= a && i <= b; i++)
+    // Check pass or fail
+    if (m1 < 40 || m2 < 40 || m3 < 40 || m4 < 40 || m5 < 40)
+        printf("\nResult: FAIL\n");
     {
-        if (a % i == 0 && b % i == 0)
-        {
-            smallestDivisor = i;
-            break;
-        }
     }
-
-    if (smallestDivisor != 0)
-        printf("\nSmallest Common Divisor: %d", smallestDivisor);
     else
-        printf("\nNo common divisor other than 1");
-
-    // Euclidean Algorithm for GCD
-    int x = a, y = b;
-    while (y != 0)
     {
-        temp = y;
-        y = x % y;
-        x = temp;
-    }
-    gcd = x;
+        total = m1 + m2 + m3 + m4 + m5;
+        percentage = (total / 500.0) * 100;
 
-    printf("\nGreatest Common Divisor (GCD): %d", gcd);
+        printf("\nTotal Marks: %d", total);
+        printf("\nPercentage: %.2f%%", percentage);
+        printf("\nResult: PASS");
+
+        if (percentage >= 75)
+            printf("\nGrade: Distinction");
+        else if (percentage >= 60)
+            printf("\nGrade: First Division");
+        else if (percentage >= 50)
+            printf("\nGrade: Second Division");
+        else
+            printf("\nGrade: Third Division");
+    }
 
     return 0;
 }

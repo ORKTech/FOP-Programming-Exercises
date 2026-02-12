@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program is a simple calculator that performs basic arithmetic operations (addition, subtraction, multiplication, division, and modulus) based on user input.
+*/
+
 //Library Included:
 #include <stdio.h>
 

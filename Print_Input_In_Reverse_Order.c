@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program takes a number as input and prints its digits in reverse order.
+*/
+
 //Library Included:
 #include <stdio.h>
 

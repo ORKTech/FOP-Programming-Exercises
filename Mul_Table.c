@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program generates the multiplication table for a given number.
+*/
+
 //Library Included:
 #include <stdio.h>
 

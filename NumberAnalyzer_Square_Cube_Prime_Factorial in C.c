@@ -1,3 +1,10 @@
+/*
+* File Owner: Rahul Krishna
+* PRN: 1262250870
+* Batch: I2
+* Description: This program performs various operations on a given number, including calculating the square root, square, cube, checking if it's prime, calculating factorial, and finding prime factors based on user choice.
+*/
+
 //Library Included:
 #include <stdio.h>
 #include <math.h>
