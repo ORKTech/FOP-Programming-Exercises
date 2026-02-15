@@ -19,7 +19,10 @@ Strengthen core programming fundamentals
 Improve logical reasoning and structured coding
 Maintain a well-organized academic reference for Semester 2
 
-🏫 Course Details:
-Course: Foundations of Programming (FOP)
-University: MIT-WPU
-Semester: 2
+## 🏫 Course Information
+
+- **Course:** Foundations of Programming (FOP)  
+- **University:** MIT World Peace University  
+- **Semester:** 2  
+- **Specialization:** AI & Data Science (AI & DS)  
+- **Development Environment:** Visual Studio (or any C compiler)
