@@ -99,4 +99,8 @@ clang Armstrong_Number.c -o program
 ./program
 ```
 ## 📄 License:
-This project is intended strictly for academic and learning purposes.
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this code for personal, academic, or commercial purposes, provided that proper credit is given to the original author.
+
+For full license details, see the LICENSE file in this repository.
