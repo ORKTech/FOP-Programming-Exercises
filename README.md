@@ -19,7 +19,6 @@ Maintain a well-organized academic reference for Semester 2
 - Looping Constructs (for, while, do-while)
 - Functions and Modular Programming
 - Arrays and Basic Matrix Operations
-- Mathematical Computations (Prime, Factorial, GCD, etc.)
 
 ---
 
